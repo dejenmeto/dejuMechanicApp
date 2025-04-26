@@ -22,6 +22,7 @@ const router = require("./routes");
 const app = express();
 // Add the CORS middleware
 app.use(cors(corsOptions));
+
 // Add the express.json middleware to the application
 app.use(express.json());
 // Add the sanitizer to the express middleware

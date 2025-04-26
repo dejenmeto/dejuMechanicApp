@@ -14,7 +14,7 @@ const createEmployee = async (formData, loggedInEmployeeToken) => {
     body: JSON.stringify(formData),
   };
   console.log(requestOptions);
-  const response = await fetch(`${api_url}/api/employee`, requestOptions);
+  const response = await fetch(`${apiUrl}/api/employee`, requestOptions);
   return response;
 };
 

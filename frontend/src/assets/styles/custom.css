@@ -262,3 +262,22 @@ input:disabled {
 .change-status {
   cursor: pointer;
 }
+
+.header-top .right-column {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top .right-column .phone-number {
+  font-size: 18px;
+  color: #fff;
+}
+
+.header-top .right-column .phone-number strong {
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 20px;
+}
